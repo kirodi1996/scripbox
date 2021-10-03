@@ -1,0 +1,41 @@
+.upvote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+
+}
+.mr-8{
+    margin-right: 8px;
+}
+.title{
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.line-clamp {
+    height: 53px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.card_height{
+    height: 220px;
+}
+.mob_challenge{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.mob_sort{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+.dashboard_header{
+    display: flex;
+    justify-content: space-between;
+}
